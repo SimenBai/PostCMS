@@ -1,0 +1,25 @@
+{
+  "name": "php-kit/ext-pdo",
+  "description": "An extension to the standard PHP PDO API",
+  "license": "MIT",
+  "homepage": "https://github.com/php-kit/ext-pdo",
+  "authors": [
+    {
+      "name": "Impactwave",
+      "email": "impactwave@impactwave.com",
+      "homepage": "http://impactwave.com"
+    },
+    {
+      "name": "Claudio Silva",
+      "email": "claudio.silva@impactwave.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "PhpKit\\ExtPDO\\": "src"
+    }
+  }
+}

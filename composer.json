@@ -1,0 +1,15 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Simen Bai",
+      "email": "contact@baimedia.no"
+    }
+  ],
+  "require": {
+    "php-kit/ext-pdo": "1.1.3"
+  }
+}
