@@ -42,7 +42,7 @@ require 'vendor/autoload.php';
 </form>
 <?php
 //Gets all the posts from the database
-$allPosts = sqlUtils::getAllPosts();
+$allPosts = \PostCMS\Utils::getAllPosts();
 
 //Checks if there is any posts returned
 if (!empty($allPosts)) {
